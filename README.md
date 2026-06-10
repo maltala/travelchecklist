@@ -21,7 +21,7 @@ Construir una aplicación web sencilla para gestionar viajes y tareas asociadas.
 > Este apartado se irá completando durante la práctica.
 
 ## Autor
-- Nombre del alumno/a
+- Manuel Altamirano
 
 ## Fecha de creación
-2026
+2026/06/03
