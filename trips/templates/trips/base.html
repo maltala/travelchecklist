@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="es">
 <head>
@@ -147,6 +148,7 @@
       <div class="nav-links">
         <a href="{% url 'trips:home' %}">Inicio</a>
         {% if user.is_authenticated %}
+          <a href="{% url 'trips:trip_list' %}">Mis viajes</a>
           <span>Hola, {{ user.username }}</span>
           <form method="post" action="{% url 'trips:logout' %}" style="margin:0;">
             {% csrf_token %}
